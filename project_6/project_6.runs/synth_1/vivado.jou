@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jun  1 12:47:33 2023
+# Process ID: 7872
+# Current directory: C:/Users/narehman/Desktop/cse100/lab6/project_6/project_6.runs/synth_1
+# Command line: vivado.exe -log topL6S23.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source topL6S23.tcl
+# Log file: C:/Users/narehman/Desktop/cse100/lab6/project_6/project_6.runs/synth_1/topL6S23.vds
+# Journal file: C:/Users/narehman/Desktop/cse100/lab6/project_6/project_6.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source topL6S23.tcl -notrace
