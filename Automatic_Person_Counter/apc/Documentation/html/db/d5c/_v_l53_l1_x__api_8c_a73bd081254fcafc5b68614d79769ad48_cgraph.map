@@ -1,0 +1,14 @@
+<map id="VL53L1X_GetInterMeasurementInMs" name="VL53L1X_GetInterMeasurementInMs">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,242,56"/>
+<area shape="rect" id="Node000002" href="$d3/db9/_v_l53_l1_x__platform_8c.html#ad2a7f7859d8b38c5e06b0a2f03b4a8f0" title=" " alt="" coords="290,5,428,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,28,273,25,274,30,242,33"/>
+<area shape="rect" id="Node000006" href="$d3/db9/_v_l53_l1_x__platform_8c.html#a5e28d0ca5690b399cded3c1044788f2c" title=" " alt="" coords="295,55,423,80"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="242,53,280,57,279,62,242,58"/>
+<area shape="rect" id="Node000003" href="$d3/db9/_v_l53_l1_x__platform_8c.html#aa025a7fa52377e468bf7375b54ff8b87" title=" " alt="" coords="476,31,616,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="429,25,461,29,460,35,428,30"/>
+<area shape="rect" id="Node000004" href="$d3/db9/_v_l53_l1_x__platform_8c.html#af4e6797bc699ecd26ea4fcd7835b1bc9" title=" " alt="" coords="664,5,771,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="616,30,648,26,649,31,617,36"/>
+<area shape="rect" id="Node000005" href="$d3/db9/_v_l53_l1_x__platform_8c.html#a7a060dbeb85f224fac1458b2939950d1" title=" " alt="" coords="665,55,770,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="617,51,650,55,649,61,616,56"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="423,57,460,52,461,57,424,62"/>
+</map>

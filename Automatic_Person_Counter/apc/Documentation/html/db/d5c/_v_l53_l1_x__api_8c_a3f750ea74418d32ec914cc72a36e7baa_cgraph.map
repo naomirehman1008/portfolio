@@ -1,0 +1,11 @@
+<map id="VL53L1X_GetOffset" name="VL53L1X_GetOffset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,144,56"/>
+<area shape="rect" id="Node000002" href="$d3/db9/_v_l53_l1_x__platform_8c.html#a5e28d0ca5690b399cded3c1044788f2c" title=" " alt="" coords="192,31,320,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,41,176,41,176,46,144,46"/>
+<area shape="rect" id="Node000003" href="$d3/db9/_v_l53_l1_x__platform_8c.html#aa025a7fa52377e468bf7375b54ff8b87" title=" " alt="" coords="368,31,508,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="321,41,352,41,352,46,321,46"/>
+<area shape="rect" id="Node000004" href="$d3/db9/_v_l53_l1_x__platform_8c.html#af4e6797bc699ecd26ea4fcd7835b1bc9" title=" " alt="" coords="556,5,663,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="508,30,540,26,541,31,509,36"/>
+<area shape="rect" id="Node000005" href="$d3/db9/_v_l53_l1_x__platform_8c.html#a7a060dbeb85f224fac1458b2939950d1" title=" " alt="" coords="557,55,662,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="509,51,542,55,541,61,508,56"/>
+</map>

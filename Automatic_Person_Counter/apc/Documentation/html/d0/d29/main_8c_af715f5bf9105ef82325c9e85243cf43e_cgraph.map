@@ -1,0 +1,18 @@
+<map id="on_a_then_b" name="on_a_then_b">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,101,80"/>
+<area shape="rect" id="Node000002" href="$d5/dc9/hw__settings_8c.html#a54125afe62d72add4e2321aa235607db" title=" " alt="" coords="182,5,278,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,52,166,33,168,38,102,57"/>
+<area shape="rect" id="Node000003" href="$d0/d29/main_8c.html#a3f767481eb21d7f90e6997a903fbf50e" title=" " alt="" coords="156,55,304,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,65,140,65,140,70,101,70"/>
+<area shape="rect" id="Node000007" href="$d0/d29/main_8c.html#a86997cc5218b1f80bfe53073e5333c20" title=" " alt="" coords="149,104,311,130"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="102,78,167,97,166,102,100,83"/>
+<area shape="rect" id="Node000004" href="$d3/d3f/can__bus__send_8c.html#a71c0dfd1991940d2a8cd31b157910a0e" title="Send boarding detected to main pico." alt="" coords="366,55,471,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="304,65,351,65,351,70,304,70"/>
+<area shape="rect" id="Node000005" href="$d3/d3f/can__bus__send_8c.html#a3ae3a01bf0819e20202fea5c06638e4d" title=" " alt="" coords="526,80,647,106"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="472,73,512,79,511,84,471,78"/>
+<area shape="rect" id="Node000006" href="$d5/dc9/hw__settings_8c.html#ac66d34644b2ee734ffc7c477d1ec3ea5" title=" " alt="" coords="695,80,787,106"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="647,90,679,90,679,96,647,96"/>
+<area shape="rect" id="Node000008" href="$d3/d3f/can__bus__send_8c.html#a66c07bbb0fc111b077f07d473862b55b" title="Send deboarding detected to main pico." alt="" coords="359,104,478,130"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="311,114,344,114,344,120,311,120"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="478,106,511,101,511,106,479,111"/>
+</map>

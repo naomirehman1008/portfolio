@@ -1,0 +1,11 @@
+<map id="VL53L1X_GetInterruptPolarity2" name="VL53L1X_GetInterruptPolarity2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,207,56"/>
+<area shape="rect" id="Node000002" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a622b66d9e70f8bbd4a721069b419947d" title=" " alt="" coords="255,31,387,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,41,239,41,239,46,207,46"/>
+<area shape="rect" id="Node000003" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#af3b737ea464969cd48cc042faa03450b" title=" " alt="" coords="435,31,582,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="387,41,419,41,419,46,387,46"/>
+<area shape="rect" id="Node000004" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a7746626983206c1937200d41462b4004" title=" " alt="" coords="630,5,744,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="583,30,614,26,615,31,583,36"/>
+<area shape="rect" id="Node000005" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a89570b238ed6f7947a3b6b1a555ae4a7" title=" " alt="" coords="631,55,743,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="583,51,616,55,615,61,583,56"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="send_door_close" name="send_door_close">
+<area shape="rect" id="Node000001" title="Send door close detected to main pico." alt="" coords="5,5,125,31"/>
+<area shape="rect" id="Node000002" href="$d3/d3f/can__bus__send_8c.html#a3ae3a01bf0819e20202fea5c06638e4d" title=" " alt="" coords="173,5,293,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,16,157,16,157,21,125,21"/>
+<area shape="rect" id="Node000003" href="$d5/dc9/hw__settings_8c.html#ac66d34644b2ee734ffc7c477d1ec3ea5" title=" " alt="" coords="341,5,433,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="293,16,326,16,326,21,293,21"/>
+</map>

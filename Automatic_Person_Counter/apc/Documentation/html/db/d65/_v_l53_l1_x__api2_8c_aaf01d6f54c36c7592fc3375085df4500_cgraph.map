@@ -1,0 +1,18 @@
+<map id="VL53L1X_SetTimingBudgetInMs2" name="VL53L1X_SetTimingBudgetInMs2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,223,58"/>
+<area shape="rect" id="Node000002" href="$db/d65/_v_l53_l1_x__api2_8c.html#a34a16a3af33dfe306fcf9e262e2e1c66" title=" " alt="" coords="271,7,464,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,31,255,28,255,33,223,37"/>
+<area shape="rect" id="Node000007" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#ac89dd1a601e7b4024369be2d38742d13" title=" " alt="" coords="300,56,435,82"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="223,52,285,58,285,64,223,58"/>
+<area shape="rect" id="Node000003" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a622b66d9e70f8bbd4a721069b419947d" title=" " alt="" coords="512,5,644,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="464,16,496,16,496,21,464,22"/>
+<area shape="rect" id="Node000004" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#af3b737ea464969cd48cc042faa03450b" title=" " alt="" coords="692,7,840,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="645,16,677,16,677,22,645,21"/>
+<area shape="rect" id="Node000005" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a7746626983206c1937200d41462b4004" title=" " alt="" coords="888,7,1001,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="840,17,872,17,872,22,840,22"/>
+<area shape="rect" id="Node000006" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a89570b238ed6f7947a3b6b1a555ae4a7" title=" " alt="" coords="888,56,1001,82"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="816,30,881,49,880,54,815,36"/>
+<area shape="rect" id="Node000008" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a076cfefbd58e056ececac3207362f964" title=" " alt="" coords="693,56,839,82"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="435,66,677,66,677,72,435,72"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="840,66,873,66,873,72,840,72"/>
+</map>

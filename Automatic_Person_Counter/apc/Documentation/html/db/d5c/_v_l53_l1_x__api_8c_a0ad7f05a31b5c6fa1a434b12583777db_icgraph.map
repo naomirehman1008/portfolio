@@ -1,0 +1,26 @@
+<map id="VL53L1X_GetInterruptPolarity" name="VL53L1X_GetInterruptPolarity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="959,77,1153,103"/>
+<area shape="rect" id="Node000002" href="$db/d5c/_v_l53_l1_x__api_8c.html#acb25803c21f719c0ad8798b389c20ffe" title=" " alt="" coords="707,77,911,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="943,92,912,92,912,87,943,87"/>
+<area shape="rect" id="Node000003" href="$d0/d29/main_8c.html#ab4450fd1b1a2ae60b21891cbcacc3507" title=" " alt="" coords="304,28,410,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="775,71,721,41,690,28,658,18,591,9,523,11,460,19,408,30,407,24,459,14,523,5,591,4,659,13,692,23,724,36,777,66"/>
+<area shape="rect" id="Node000005" href="$d9/d21/_v_l53_l1_x__calibration_8c.html#a505100556d22efa0a318dbbe0473babf" title=" " alt="" coords="483,77,653,103"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="691,92,653,92,653,87,691,87"/>
+<area shape="rect" id="Node000008" href="$d9/d21/_v_l53_l1_x__calibration_8c.html#a32c23eda7d3ecbba5ff8160f1817200d" title=" " alt="" coords="486,126,650,152"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="728,109,635,128,634,123,727,104"/>
+<area shape="rect" id="Node000010" href="$db/d5c/_v_l53_l1_x__api_8c.html#a38cab54c4467b891e87f7a5a36500056" title=" " alt="" coords="498,28,638,53"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="727,76,634,57,635,51,728,71"/>
+<area shape="rect" id="Node000011" href="$db/d5c/_v_l53_l1_x__api_8c.html#ab87c7dd77031bc43e39699c1693d85e7" title=" " alt="" coords="477,176,659,217"/>
+<area shape="poly" id="edge13_Node000002_Node000011" title=" " alt="" coords="771,113,660,167,632,178,630,173,658,162,769,108"/>
+<area shape="rect" id="Node000004" href="$d0/d29/main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,53,55,79"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="289,48,55,67,55,61,288,43"/>
+<area shape="rect" id="Node000006" href="$d4/d96/configuration_8c.html#aabe326a43bfee26035933a5dfdcf472b" title=" " alt="" coords="303,77,412,103"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="468,92,412,92,412,87,468,87"/>
+<area shape="rect" id="Node000007" href="$d4/d96/configuration_8c.html#a4228041a86b8b2869661ebf050a4097e" title=" " alt="" coords="103,78,237,104"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="287,93,238,93,238,88,287,88"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="87,79,54,73,55,68,88,74"/>
+<area shape="rect" id="Node000009" href="$d4/d96/configuration_8c.html#a5560f9444641696bc66a6d7b2fe0728d" title=" " alt="" coords="285,126,429,152"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="471,142,430,142,430,136,471,136"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="288,124,222,107,223,102,290,119"/>
+<area shape="poly" id="edge12_Node000010_Node000003" title=" " alt="" coords="482,43,410,43,410,38,482,38"/>
+</map>

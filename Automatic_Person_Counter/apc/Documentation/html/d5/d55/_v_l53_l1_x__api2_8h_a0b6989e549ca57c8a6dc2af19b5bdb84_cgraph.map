@@ -1,0 +1,11 @@
+<map id="VL53L1X_GetAmbientPerSpad2" name="VL53L1X_GetAmbientPerSpad2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,213,56"/>
+<area shape="rect" id="Node000002" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#ac2b95c120a564ba665a4386985718af0" title=" " alt="" coords="261,31,396,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,41,245,41,245,46,213,46"/>
+<area shape="rect" id="Node000003" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#af3b737ea464969cd48cc042faa03450b" title=" " alt="" coords="444,31,591,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="397,41,429,41,429,46,397,46"/>
+<area shape="rect" id="Node000004" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a7746626983206c1937200d41462b4004" title=" " alt="" coords="639,5,753,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="592,30,623,26,624,31,592,36"/>
+<area shape="rect" id="Node000005" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a89570b238ed6f7947a3b6b1a555ae4a7" title=" " alt="" coords="640,55,752,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="592,51,625,55,624,61,592,56"/>
+</map>

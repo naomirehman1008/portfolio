@@ -1,0 +1,11 @@
+<map id="VL53L1X_GetAmbientRate" name="VL53L1X_GetAmbientRate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,184,56"/>
+<area shape="rect" id="Node000002" href="$d3/db9/_v_l53_l1_x__platform_8c.html#a5e28d0ca5690b399cded3c1044788f2c" title=" " alt="" coords="232,31,360,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,41,216,41,216,46,184,46"/>
+<area shape="rect" id="Node000003" href="$d3/db9/_v_l53_l1_x__platform_8c.html#aa025a7fa52377e468bf7375b54ff8b87" title=" " alt="" coords="408,31,548,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="361,41,392,41,392,46,361,46"/>
+<area shape="rect" id="Node000004" href="$d3/db9/_v_l53_l1_x__platform_8c.html#af4e6797bc699ecd26ea4fcd7835b1bc9" title=" " alt="" coords="596,5,703,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="548,30,580,26,581,31,549,36"/>
+<area shape="rect" id="Node000005" href="$d3/db9/_v_l53_l1_x__platform_8c.html#a7a060dbeb85f224fac1458b2939950d1" title=" " alt="" coords="597,55,702,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="549,51,582,55,581,61,548,56"/>
+</map>

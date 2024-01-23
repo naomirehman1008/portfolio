@@ -1,0 +1,11 @@
+<map id="VL53L1X_GetROI_XY" name="VL53L1X_GetROI_XY">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,157,56"/>
+<area shape="rect" id="Node000002" href="$d3/db9/_v_l53_l1_x__platform_8c.html#ad515b1bdbd44634648e4e794dd917aac" title=" " alt="" coords="205,31,330,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,41,189,41,189,46,157,46"/>
+<area shape="rect" id="Node000003" href="$d3/db9/_v_l53_l1_x__platform_8c.html#aa025a7fa52377e468bf7375b54ff8b87" title=" " alt="" coords="378,31,518,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="330,41,363,41,363,46,330,46"/>
+<area shape="rect" id="Node000004" href="$d3/db9/_v_l53_l1_x__platform_8c.html#af4e6797bc699ecd26ea4fcd7835b1bc9" title=" " alt="" coords="566,5,673,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="518,30,550,26,551,31,519,36"/>
+<area shape="rect" id="Node000005" href="$d3/db9/_v_l53_l1_x__platform_8c.html#a7a060dbeb85f224fac1458b2939950d1" title=" " alt="" coords="567,55,672,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="519,51,552,55,551,61,518,56"/>
+</map>

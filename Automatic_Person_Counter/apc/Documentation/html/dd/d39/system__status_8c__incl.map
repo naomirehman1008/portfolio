@@ -1,0 +1,19 @@
+<map id="SerialConsole/system_status.c" name="SerialConsole/system_status.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="294,5,443,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,94,84,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="294,48,100,95,99,90,293,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="108,94,178,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="313,49,193,91,191,86,311,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="202,94,263,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="336,49,267,88,265,84,333,44"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="287,94,344,120"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="358,48,334,83,330,80,353,45"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="368,94,476,120"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="384,45,407,80,403,83,379,48"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="499,94,598,120"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="415,44,508,85,506,90,412,49"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="622,94,713,120"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="444,44,607,87,606,92,442,49"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="737,94,822,120"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="444,38,722,91,721,96,443,43"/>
+</map>

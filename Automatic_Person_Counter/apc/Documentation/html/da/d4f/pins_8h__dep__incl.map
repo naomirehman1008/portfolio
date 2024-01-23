@@ -1,0 +1,11 @@
+<map id="pins.h" name="pins.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="231,5,288,31"/>
+<area shape="rect" id="Node000002" href="$d3/d3f/can__bus__send_8c.html" title=" " alt="" coords="5,79,122,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,38,98,81,96,76,216,33"/>
+<area shape="rect" id="Node000003" href="$d9/da4/door__sensor_8c.html" title=" " alt="" coords="146,79,248,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,44,209,80,205,77,237,41"/>
+<area shape="rect" id="Node000004" href="$d5/dc9/hw__settings_8c.html" title=" " alt="" coords="272,79,375,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="282,40,315,77,311,80,278,44"/>
+<area shape="rect" id="Node000005" href="$d0/d29/main_8c.html" title=" " alt="" coords="399,79,459,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="303,35,401,76,399,81,301,40"/>
+</map>

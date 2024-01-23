@@ -1,0 +1,11 @@
+<map id="VL53L1X_GetSignalRate2" name="VL53L1X_GetSignalRate2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,179,56"/>
+<area shape="rect" id="Node000002" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#ac2b95c120a564ba665a4386985718af0" title=" " alt="" coords="227,31,362,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,41,211,41,211,46,179,46"/>
+<area shape="rect" id="Node000003" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#af3b737ea464969cd48cc042faa03450b" title=" " alt="" coords="410,31,557,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="363,41,395,41,395,46,363,46"/>
+<area shape="rect" id="Node000004" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a7746626983206c1937200d41462b4004" title=" " alt="" coords="605,5,719,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="558,30,589,26,590,31,558,36"/>
+<area shape="rect" id="Node000005" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a89570b238ed6f7947a3b6b1a555ae4a7" title=" " alt="" coords="606,55,718,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="558,51,591,55,590,61,558,56"/>
+</map>

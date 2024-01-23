@@ -1,0 +1,17 @@
+<map id="VL53L1X_GetDistanceMode2" name="VL53L1X_GetDistanceMode2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="791,31,984,56"/>
+<area shape="rect" id="Node000002" href="$d4/d96/configuration_8c.html#a8008fbbb8f369eeb0f452863fe664355" title=" " alt="" coords="589,5,679,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="775,35,678,25,679,20,775,30"/>
+<area shape="rect" id="Node000005" href="$db/d65/_v_l53_l1_x__api2_8c.html#aaf01d6f54c36c7592fc3375085df4500" title=" " alt="" coords="525,55,743,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="775,57,744,60,743,55,775,51"/>
+<area shape="rect" id="Node000003" href="$d4/d96/configuration_8c.html#a4228041a86b8b2869661ebf050a4097e" title=" " alt="" coords="103,5,237,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="574,21,238,21,238,16,574,16"/>
+<area shape="rect" id="Node000004" href="$d0/d29/main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,55,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="88,36,55,42,54,37,87,31"/>
+<area shape="rect" id="Node000006" href="$d0/d29/main_8c.html#ab4450fd1b1a2ae60b21891cbcacc3507" title=" " alt="" coords="117,55,223,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="510,70,223,70,223,65,510,65"/>
+<area shape="rect" id="Node000007" href="$db/d65/_v_l53_l1_x__api2_8c.html#a77d860aea1b565bbba29c6a2b62f1391" title=" " alt="" coords="285,105,477,131"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="552,87,449,107,448,102,551,81"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="101,58,55,50,56,45,102,53"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="309,104,223,83,224,78,310,99"/>
+</map>

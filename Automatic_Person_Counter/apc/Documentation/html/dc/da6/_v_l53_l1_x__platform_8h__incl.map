@@ -1,0 +1,12 @@
+<map id="library/public/include/VL53L1X_platform.h" name="library/public/include/VL53L1X_platform.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,149,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="26,168,91,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,49,30,69,14,95,12,111,16,127,36,156,32,159,11,129,6,111,9,93,26,66,48,45"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="24,94,130,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="80,46,80,78,74,78,74,46"/>
+<area shape="rect" id="Node000004" href="$dd/dfe/_v_l53_l1_x__types_8h.html" title=" " alt="" coords="155,94,279,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="113,44,184,84,181,88,111,49"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="191,123,100,163,98,159,189,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="185,168,249,193"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="220,120,220,152,214,152,214,120"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="VL53L1X_GetSensorId2" name="VL53L1X_GetSensorId2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,167,56"/>
+<area shape="rect" id="Node000002" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#ac2b95c120a564ba665a4386985718af0" title=" " alt="" coords="215,31,350,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,41,199,41,199,46,167,46"/>
+<area shape="rect" id="Node000003" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#af3b737ea464969cd48cc042faa03450b" title=" " alt="" coords="398,31,545,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="351,41,383,41,383,46,351,46"/>
+<area shape="rect" id="Node000004" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a7746626983206c1937200d41462b4004" title=" " alt="" coords="593,5,707,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="546,30,577,26,578,31,546,36"/>
+<area shape="rect" id="Node000005" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a89570b238ed6f7947a3b6b1a555ae4a7" title=" " alt="" coords="594,55,706,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="546,51,579,55,578,61,546,56"/>
+</map>
