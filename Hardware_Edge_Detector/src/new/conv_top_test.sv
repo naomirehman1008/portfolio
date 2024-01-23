@@ -142,11 +142,9 @@ module convolution_top(
     
         
     //Testing stuff
-    //assign led[0] = conv_fucked_state;
     assign led[0] = u2i_image_ready;
     assign led[1] = conv_done;
     assign led[2] = i2u_frame_sent;
-    //assign led[3] = i2u_fucked_state;
     assign led[4] = rx_empty;
     assign led[5] = rx_full;
     assign led[12:10] = i_state;
