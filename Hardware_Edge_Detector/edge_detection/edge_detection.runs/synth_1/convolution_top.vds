@@ -1,0 +1,730 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jan 22 16:37:56 2024
+# Process ID: 19580
+# Current directory: C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.runs/synth_1
+# Command line: vivado.exe -log convolution_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source convolution_top.tcl
+# Log file: C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.runs/synth_1/convolution_top.vds
+# Journal file: C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source convolution_top.tcl -notrace
+Command: synth_design -top convolution_top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9996 
+WARNING: [Synth 8-2507] parameter declaration becomes local in image_array_to_uart with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/image_array_to_uart.sv:46]
+WARNING: [Synth 8-2507] parameter declaration becomes local in image_array_to_uart with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/image_array_to_uart.sv:47]
+WARNING: [Synth 8-2507] parameter declaration becomes local in image_array_to_uart with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/image_array_to_uart.sv:48]
+WARNING: [Synth 8-2507] parameter declaration becomes local in image_array_to_uart with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/image_array_to_uart.sv:49]
+WARNING: [Synth 8-2507] parameter declaration becomes local in image_array_to_uart with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/image_array_to_uart.sv:50]
+WARNING: [Synth 8-2507] parameter declaration becomes local in uart_to_image_array with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_to_image_array.sv:43]
+WARNING: [Synth 8-2507] parameter declaration becomes local in uart_to_image_array with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_to_image_array.sv:44]
+WARNING: [Synth 8-2507] parameter declaration becomes local in uart_to_image_array with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_to_image_array.sv:45]
+WARNING: [Synth 8-2507] parameter declaration becomes local in uart_to_image_array with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_to_image_array.sv:46]
+WARNING: [Synth 8-2507] parameter declaration becomes local in uart_to_image_array with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_to_image_array.sv:47]
+WARNING: [Synth 8-2507] parameter declaration becomes local in uart_to_image_array with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_to_image_array.sv:48]
+WARNING: [Synth 8-2507] parameter declaration becomes local in conv_block with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_block.sv:40]
+WARNING: [Synth 8-2507] parameter declaration becomes local in conv_block with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_block.sv:41]
+WARNING: [Synth 8-2507] parameter declaration becomes local in conv_block with formal parameter declaration list [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_block.sv:42]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 831.426 ; gain = 182.012
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'convolution_top' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_top_test.sv:24]
+	Parameter CLOCK_FREQ bound to: 100000000 - type: integer 
+	Parameter SLOW_CLK_FREQ bound to: 10000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter CLKS_PER_BIT bound to: 86.000000 - type: float 
+	Parameter IMAGE_WIDTH bound to: 8 - type: integer 
+	Parameter IMAGE_HIGHT bound to: 8 - type: integer 
+	Parameter OUTPUT_WIDTH bound to: 6 - type: integer 
+	Parameter OUTPUT_HIGHT bound to: 6 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter START_CHAR bound to: 8'b01011010 
+	Parameter STOP_CHAR bound to: 8'b01011010 
+INFO: [Synth 8-6157] synthesizing module 'uart_top' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_top.v:37]
+	Parameter DBITS bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+	Parameter BR_LIMIT bound to: 52 - type: integer 
+	Parameter BR_BITS bound to: 6 - type: integer 
+	Parameter FIFO_EXP bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'baud_rate_generator' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/baud_rate_generator.v:15]
+	Parameter N bound to: 6 - type: integer 
+	Parameter M bound to: 52 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'baud_rate_generator' (1#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/baud_rate_generator.v:15]
+INFO: [Synth 8-6157] synthesizing module 'uart_receiver' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_receiver.v:15]
+	Parameter DBITS bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+	Parameter idle bound to: 2'b00 
+	Parameter start bound to: 2'b01 
+	Parameter data bound to: 2'b10 
+	Parameter stop bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'uart_receiver' (2#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_receiver.v:15]
+INFO: [Synth 8-6157] synthesizing module 'uart_transmitter' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_transmitter_new.v:15]
+	Parameter DBITS bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+	Parameter idle bound to: 2'b00 
+	Parameter start bound to: 2'b01 
+	Parameter data bound to: 2'b10 
+	Parameter stop bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'uart_transmitter' (3#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_transmitter_new.v:15]
+INFO: [Synth 8-6157] synthesizing module 'fifo' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/fifo.v:18]
+	Parameter DATA_SIZE bound to: 8 - type: integer 
+	Parameter ADDR_SPACE_EXP bound to: 2 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/fifo.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'fifo' (4#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/fifo.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'uart_top' (5#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_top.v:37]
+INFO: [Synth 8-6157] synthesizing module 'conv_block' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_block.sv:23]
+	Parameter IMAGE_WIDTH bound to: 8 - type: integer 
+	Parameter IMAGE_HIGHT bound to: 8 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter OUTPUT_WIDTH bound to: 6 - type: integer 
+	Parameter OUTPUT_HIGHT bound to: 6 - type: integer 
+	Parameter s_CHILL bound to: 2'b00 
+	Parameter s_CONVOLVE bound to: 2'b01 
+	Parameter s_CONV_DONE bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'conv_unit' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_unit.sv:1]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'conv_unit' (6#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_unit.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'conv_block' (7#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_block.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'uart_to_image_array' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_to_image_array.sv:23]
+	Parameter IMAGE_WIDTH bound to: 8 - type: integer 
+	Parameter IMAGE_HIGHT bound to: 8 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter START_CHAR bound to: 8'b01011010 
+	Parameter STOP_CHAR bound to: 8'b01011010 
+	Parameter s_CHILL bound to: 3'b000 
+	Parameter s_WAIT_FOR_DATA bound to: 3'b001 
+	Parameter s_WAIT_FOR_STOP_CHAR bound to: 3'b010 
+	Parameter s_READ_DATA bound to: 3'b011 
+	Parameter s_DATA_READY bound to: 3'b100 
+	Parameter s_STOP_CHAR bound to: 3'b101 
+WARNING: [Synth 8-5856] 3D RAM input_image_reg  for this pattern/configuration is not supported. This will most likely be implemented in registers
+INFO: [Synth 8-6155] done synthesizing module 'uart_to_image_array' (8#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_to_image_array.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'image_array_to_uart' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/image_array_to_uart.sv:23]
+	Parameter IMAGE_WIDTH bound to: 8 - type: integer 
+	Parameter IMAGE_HIGHT bound to: 8 - type: integer 
+	Parameter OUTPUT_WIDTH bound to: 6 - type: integer 
+	Parameter OUTPUT_HIGHT bound to: 6 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter BR_LIMIT bound to: 104 - type: integer 
+	Parameter BR_BITS bound to: 7 - type: integer 
+	Parameter s_CHILL bound to: 3'b000 
+	Parameter s_LOAD_BYTE bound to: 3'b001 
+	Parameter s_TX_VD bound to: 3'b010 
+	Parameter s_INC_COUNTERS bound to: 3'b011 
+	Parameter s_IMAGE_SENT bound to: 3'b111 
+INFO: [Synth 8-6157] synthesizing module 'baud_rate_generator__parameterized0' [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/baud_rate_generator.v:15]
+	Parameter N bound to: 7 - type: integer 
+	Parameter M bound to: 104 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'baud_rate_generator__parameterized0' (8#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/baud_rate_generator.v:15]
+WARNING: [Synth 8-6014] Unused sequential element set_tx_DV_reg was removed.  [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/image_array_to_uart.sv:102]
+INFO: [Synth 8-6155] done synthesizing module 'image_array_to_uart' (9#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/image_array_to_uart.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'convolution_top' (10#1) [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_top_test.sv:24]
+WARNING: [Synth 8-3331] design image_array_to_uart has unconnected port tx_active
+WARNING: [Synth 8-3331] design image_array_to_uart has unconnected port tx_done
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][7]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][6]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][5]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][4]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][3]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][2]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][1]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][0]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][7]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][6]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][5]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][4]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][3]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][2]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][1]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][0]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][7]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][6]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][5]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][4]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][3]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][2]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][1]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][0]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][7]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][6]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][5]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][4]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][3]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][2]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][1]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][0]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port led[9]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port led[8]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port led[7]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port led[6]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port led[3]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port btnL
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 882.074 ; gain = 232.660
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 888.293 ; gain = 238.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 888.293 ; gain = 238.879
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/constrs_1/imports/CSE100/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/constrs_1/imports/CSE100/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/constrs_1/imports/CSE100/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/convolution_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/convolution_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1027.980 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1027.980 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1027.980 ; gain = 378.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1027.980 ; gain = 378.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 1027.980 ; gain = 378.566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_receiver'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_transmitter'
+INFO: [Synth 8-802] inferred FSM for state register 's_STATE_reg' in module 'conv_block'
+INFO: [Synth 8-802] inferred FSM for state register 's_STATE_reg' in module 'uart_to_image_array'
+INFO: [Synth 8-802] inferred FSM for state register 's_STATE_reg' in module 'image_array_to_uart'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   start |                               01 |                               01
+                    data |                               10 |                               10
+                    stop |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_receiver'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   start |                               01 |                               01
+                    data |                               10 |                               10
+                    stop |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_transmitter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 s_CHILL |                              001 |                               00
+              s_CONVOLVE |                              010 |                               01
+             s_CONV_DONE |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_STATE_reg' using encoding 'one-hot' in module 'conv_block'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 s_CHILL |                              000 |                              000
+             s_READ_DATA |                              001 |                              011
+         s_WAIT_FOR_DATA |                              010 |                              001
+    s_WAIT_FOR_STOP_CHAR |                              011 |                              010
+             s_STOP_CHAR |                              100 |                              101
+            s_DATA_READY |                              101 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_STATE_reg' using encoding 'sequential' in module 'uart_to_image_array'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 s_CHILL |                            00001 |                              000
+             s_LOAD_BYTE |                            00010 |                              001
+                 s_TX_VD |                            00100 |                              010
+          s_INC_COUNTERS |                            01000 |                              011
+            s_IMAGE_SENT |                            10000 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 's_STATE_reg' using encoding 'one-hot' in module 'image_array_to_uart'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1027.980 ; gain = 378.566
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   6 Input      8 Bit       Adders := 36    
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 6     
+	   2 Input      2 Bit       Adders := 4     
++---Registers : 
+	                8 Bit    Registers := 103   
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 6     
+	                1 Bit    Registers := 17    
++---RAMs : 
+	               32 Bit         RAMs := 2     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 14    
+	   6 Input      3 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 82    
+	   3 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 23    
+	  11 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 77    
+	   5 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module baud_rate_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module uart_receiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 5     
+Module uart_transmitter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 6     
+Module fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 2     
++---RAMs : 
+	               32 Bit         RAMs := 1     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 6     
+Module conv_unit 
+Detailed RTL Component Info : 
++---Adders : 
+	   6 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+Module conv_block 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+Module uart_to_image_array 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 64    
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 10    
+	   6 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 75    
+	   3 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 77    
+Module baud_rate_generator__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module image_array_to_uart 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 3     
+	   5 Input      3 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][7]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][6]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][5]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][4]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][3]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][2]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][1]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][2][0]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][7]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][6]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][5]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][4]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][3]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][2]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][1]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[2][0][0]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][7]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][6]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][5]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][4]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][3]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][2]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][1]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][2][0]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][7]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][6]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][5]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][4]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][3]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][2]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][1]
+WARNING: [Synth 8-3331] design conv_unit has unconnected port input_data[0][0][0]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port led[9]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port led[8]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port led[7]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port led[6]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port led[3]
+WARNING: [Synth 8-3331] design convolution_top has unconnected port btnL
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.980 ; gain = 378.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------+-----------------------------------+-----------+----------------------+--------------+
+|Module Name     | RTL Object                        | Inference | Size (Depth x Width) | Primitives   | 
++----------------+-----------------------------------+-----------+----------------------+--------------+
+|convolution_top | UART_UNIT/FIFO_TX_UNIT/memory_reg | Implied   | 4 x 8                | RAM32M x 2   | 
+|convolution_top | UART_UNIT/FIFO_RX_UNIT/memory_reg | Implied   | 4 x 8                | RAM32M x 2   | 
++----------------+-----------------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1027.980 ; gain = 378.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1027.980 ; gain = 378.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++----------------+-----------------------------------+-----------+----------------------+--------------+
+|Module Name     | RTL Object                        | Inference | Size (Depth x Width) | Primitives   | 
++----------------+-----------------------------------+-----------+----------------------+--------------+
+|convolution_top | UART_UNIT/FIFO_TX_UNIT/memory_reg | Implied   | 4 x 8                | RAM32M x 2   | 
+|convolution_top | UART_UNIT/FIFO_RX_UNIT/memory_reg | Implied   | 4 x 8                | RAM32M x 2   | 
++----------------+-----------------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 1030.863 ; gain = 381.449
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1036.434 ; gain = 387.020
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1036.434 ; gain = 387.020
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1036.434 ; gain = 387.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1036.434 ; gain = 387.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1036.434 ; gain = 387.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1036.434 ; gain = 387.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   144|
+|3     |LUT1   |     2|
+|4     |LUT2   |   158|
+|5     |LUT3   |   421|
+|6     |LUT4   |   392|
+|7     |LUT5   |    30|
+|8     |LUT6   |   237|
+|9     |MUXF7  |    32|
+|10    |MUXF8  |     8|
+|11    |RAM32M |     4|
+|12    |FDCE   |    50|
+|13    |FDPE   |     3|
+|14    |FDRE   |   812|
+|15    |IBUF   |     3|
+|16    |OBUF   |    12|
+|17    |OBUFT  |     5|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------------------+------------------------------------+------+
+|      |Instance                         |Module                              |Cells |
++------+---------------------------------+------------------------------------+------+
+|1     |top                              |                                    |  2314|
+|2     |  UART_UNIT                      |uart_top                            |   128|
+|3     |    BAUD_RATE_GEN                |baud_rate_generator                 |    13|
+|4     |    FIFO_RX_UNIT                 |fifo                                |    18|
+|5     |    FIFO_TX_UNIT                 |fifo_35                             |    17|
+|6     |    UART_RX_UNIT                 |uart_receiver                       |    35|
+|7     |    UART_TX_UNIT                 |uart_transmitter                    |    45|
+|8     |  img2uart                       |image_array_to_uart                 |    61|
+|9     |    BAUD_RATE_GEN                |baud_rate_generator__parameterized0 |    21|
+|10    |  myConvBlock                    |conv_block                          |   594|
+|11    |    \genblk1[0].genblk1[0].unit  |conv_unit                           |    13|
+|12    |    \genblk1[0].genblk1[1].unit  |conv_unit_0                         |    13|
+|13    |    \genblk1[0].genblk1[2].unit  |conv_unit_1                         |    13|
+|14    |    \genblk1[0].genblk1[3].unit  |conv_unit_2                         |    13|
+|15    |    \genblk1[0].genblk1[4].unit  |conv_unit_3                         |    13|
+|16    |    \genblk1[0].genblk1[5].unit  |conv_unit_4                         |    13|
+|17    |    \genblk1[1].genblk1[0].unit  |conv_unit_5                         |    13|
+|18    |    \genblk1[1].genblk1[1].unit  |conv_unit_6                         |    13|
+|19    |    \genblk1[1].genblk1[2].unit  |conv_unit_7                         |    13|
+|20    |    \genblk1[1].genblk1[3].unit  |conv_unit_8                         |    13|
+|21    |    \genblk1[1].genblk1[4].unit  |conv_unit_9                         |    13|
+|22    |    \genblk1[1].genblk1[5].unit  |conv_unit_10                        |    13|
+|23    |    \genblk1[2].genblk1[0].unit  |conv_unit_11                        |    13|
+|24    |    \genblk1[2].genblk1[1].unit  |conv_unit_12                        |    13|
+|25    |    \genblk1[2].genblk1[2].unit  |conv_unit_13                        |    13|
+|26    |    \genblk1[2].genblk1[3].unit  |conv_unit_14                        |    13|
+|27    |    \genblk1[2].genblk1[4].unit  |conv_unit_15                        |    13|
+|28    |    \genblk1[2].genblk1[5].unit  |conv_unit_16                        |    13|
+|29    |    \genblk1[3].genblk1[0].unit  |conv_unit_17                        |    37|
+|30    |    \genblk1[3].genblk1[1].unit  |conv_unit_18                        |    21|
+|31    |    \genblk1[3].genblk1[2].unit  |conv_unit_19                        |    29|
+|32    |    \genblk1[3].genblk1[3].unit  |conv_unit_20                        |    21|
+|33    |    \genblk1[3].genblk1[4].unit  |conv_unit_21                        |    29|
+|34    |    \genblk1[3].genblk1[5].unit  |conv_unit_22                        |    21|
+|35    |    \genblk1[4].genblk1[0].unit  |conv_unit_23                        |    13|
+|36    |    \genblk1[4].genblk1[1].unit  |conv_unit_24                        |    13|
+|37    |    \genblk1[4].genblk1[2].unit  |conv_unit_25                        |    13|
+|38    |    \genblk1[4].genblk1[3].unit  |conv_unit_26                        |    13|
+|39    |    \genblk1[4].genblk1[4].unit  |conv_unit_27                        |    13|
+|40    |    \genblk1[4].genblk1[5].unit  |conv_unit_28                        |    13|
+|41    |    \genblk1[5].genblk1[0].unit  |conv_unit_29                        |    13|
+|42    |    \genblk1[5].genblk1[1].unit  |conv_unit_30                        |    29|
+|43    |    \genblk1[5].genblk1[2].unit  |conv_unit_31                        |    13|
+|44    |    \genblk1[5].genblk1[3].unit  |conv_unit_32                        |    21|
+|45    |    \genblk1[5].genblk1[4].unit  |conv_unit_33                        |    13|
+|46    |    \genblk1[5].genblk1[5].unit  |conv_unit_34                        |    29|
+|47    |  uart2img                       |uart_to_image_array                 |  1510|
++------+---------------------------------+------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1036.434 ; gain = 387.020
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 38 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1036.434 ; gain = 247.332
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1036.434 ; gain = 387.020
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 188 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1052.473 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+45 Infos, 94 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 1052.473 ; gain = 657.387
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1052.473 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.runs/synth_1/convolution_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file convolution_top_utilization_synth.rpt -pb convolution_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 22 16:38:37 2024...

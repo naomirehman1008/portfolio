@@ -1,0 +1,23 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sim_1/new/conv_block_sim.sv,1705896840,systemVerilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sim_1/new/conv_top_sim.sv,,conv_block_sim,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sim_1/new/conv_top_sim.sv,1705838934,systemVerilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sim_1/new/img_to_uart_sim.sv,,,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sim_1/new/conv_unit_simu.sv,1705968126,systemVerilog,,,,conv_unit_sim,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sim_1/new/img_to_uart_sim.sv,1705840733,systemVerilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sim_1/new/uart_to_img_sim.sv,,tb_uart_to_image_array,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sim_1/new/uart_to_img_sim.sv,1705841247,systemVerilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sim_1/new/conv_unit_simu.sv,,tb_image_array_to_uart,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/baud_rate_generator.v,1705827043,verilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/fifo.v,,baud_rate_generator,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/clk_5MHz.v,1705816221,verilog,,,,clk_XMHz,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_block.sv,1705969545,systemVerilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sim_1/new/conv_block_sim.sv,,conv_block,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_top_test.sv,1705869153,systemVerilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_block.sv,,convolution_top,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/conv_unit.sv,1705862433,systemVerilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/image_array_to_uart.sv,,conv_unit,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/debounce_explicit.v,1705827055,verilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_transmitter_new.v,,debounce_explicit,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/fifo.v,1705827071,verilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_top.v,,fifo,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/image_array_to_uart.sv,1705870251,systemVerilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_to_image_array.sv,,image_array_to_uart,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_receiver.v,1705827030,verilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/baud_rate_generator.v,,uart_receiver,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_test_new.v,1705828806,verilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/debounce_explicit.v,,uart_test,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_to_image_array.sv,1705872771,systemVerilog,,,,uart_to_image_array,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_top.v,1705829270,verilog,,C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/debounce_explicit.v,,uart_top,,,,,,,,
+C:/Users/naomi/Documents/Personal-Projects/edge_detection/edge_detection.srcs/sources_1/new/uart_transmitter_new.v,1705827123,verilog,,,,uart_transmitter,,,,,,,,

@@ -1,0 +1,36 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../edge_detection.srcs/sources_1/new/clk_5MHz.v" \
+
+sv xil_defaultlib  \
+"../../../../edge_detection.srcs/sources_1/new/conv_module.sv" \
+"../../../../edge_detection.srcs/sources_1/new/conv_unit.sv" \
+"../../../../edge_detection.srcs/sources_1/new/image_array_to_uart.sv" \
+"../../../../edge_detection.srcs/sources_1/new/uart_to_image_array.sv" \
+
+verilog xil_defaultlib  \
+"../../../../edge_detection.srcs/sources_1/new/uart_receiver.v" \
+"../../../../edge_detection.srcs/sources_1/new/baud_rate_generator.v" \
+"../../../../edge_detection.srcs/sources_1/new/fifo.v" \
+"../../../../edge_detection.srcs/sources_1/new/uart_top.v" \
+"../../../../edge_detection.srcs/sources_1/new/uart_test_new.v" \
+"../../../../edge_detection.srcs/sources_1/new/debounce_explicit.v" \
+"../../../../edge_detection.srcs/sources_1/new/uart_transmitter_new.v" \
+
+sv xil_defaultlib  \
+"../../../../edge_detection.srcs/sources_1/new/convolution_top.sv" \
+
+verilog xil_defaultlib  \
+"../../../../edge_detection.srcs/sim_1/new/conv_unit_sim.v" \
+
+sv xil_defaultlib  \
+"../../../../edge_detection.srcs/sim_1/new/conv_block_sim.sv" \
+"../../../../edge_detection.srcs/sim_1/new/conv_top_sim.sv" \
+"../../../../edge_detection.srcs/sim_1/new/img_to_uart_sim.sv" \
+"../../../../edge_detection.srcs/sim_1/new/uart_to_img_sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
