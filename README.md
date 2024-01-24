@@ -1,5 +1,11 @@
 # Naomi Rehman's Portfolio
-Welcome to my portfolio! This is a collection of projects I have worked on, both academic and personal. Please let me know if you have any questions, I love talking about my projects!
+Welcome to my portfolio! This is a collection of projects I have worked on recently. I also have a private repository of my favorite academic projects, please email me at naomiarehman@gmail.com if you would like to see it.
 
-# a note on academic/collaborative projects
-Please do not distribute this repository or any of the projects, as some are from my coursework and contain code provided by the university that is not mine. I specify which files were written by me in the READMEs. For projects that were collaborative, I have removed the code that is not mine. Please let me know if you have questions or would like a demo.
+#### Automatic Person Counter
+I created this while working with PinpointAVL. It uses C, C++, and two VL53L1X sensors to detect boardings and deboardings on buses. 
+
+#### Hardware Edge Detector
+I created this project for CruzHacks 2024. It uses python and SystemVerilog to perform edge detection on an FPGA.
+
+#### Single Cycle 16 bit CPU
+This is a simple Verilog implementation of a single cycle CPU.
