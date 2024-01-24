@@ -12,11 +12,11 @@ For trouble shooting APC outputs boardings and deboardings to serial. Connect to
 
 The user manuals and datasheets for the VL53L1X sensor are in the documentation folder.
 Init:
-First the sensors must be configured. The I2C is first configured for each sensor, then the sensor is initialized. The library (https://github.com/alex-mous/VL53L1X-C-API-for-Raspberry-Pi-Pico) only supports 1 sensor at this moment, so we have a copy of the library. All names and functions in the duplicate library have a 2 in them. The pins for i2c0 bus are the default i2C pins (gpio pins 4 and 5). The i2c1 bus doesn't have default pins, so GPIO pins 27 and 28 are used. Currently, the original library MUST be initialized on the i2c1 bus, otherwise the system crashes a lot (reason unkown). After initalizing i2c, the sensor is booted. The boot state is 0 if not booted, 1 on initial boot, and 3 while operating (the 3 might be a bug, but if you see it its fine). Once the sensor is booted (after do while), the parameters are configured. The current parameter setup is:
+First the sensors must be configured. The I2C is first configured for each sensor, then the sensor is initialized. The library for the sensor is a C++ adaptation of Alex Mous's implementation of the VL53L1X UltraLite Driver (https://github.com/alex-mous/VL53L1X-C-API-for-Raspberry-Pi-Pico). The pins for i2c0 bus are the default i2C pins (gpio pins 4 and 5). The i2c1 bus doesn't have default pins, so GPIO pins 26 and 27 are used. After initalizing i2c, the sensor is booted. The boot state is 0 if not booted, 1 on initial boot, and 3 while operating. Once the sensor is booted (after the do while), the parameters are configured. The current parameter setup is:
 
 Distance Mode = 2 (long)
-Timing Budget = 33 ms
-Inter Measurement Period = 33 ms
+Timing Budget = 33 (ms)
+Inter Measurement Period = 33 (ms)
 
 Distance mode sets the range of distance measurements. The intermeasurement period is the time between ranges. The timing budget is the amount of time collecting a range measurement. These are currently both set to 33ms, the smallest time recommended to get accurate measurements (20ms is the lowest possible). The intermeasurement period must be at least as long as the timing budget. VL53L1X_StartRanging only needs to be called once.
 
@@ -27,7 +27,7 @@ To take a measurement:
 - getDistance
 - ClearInterrupt
 
-The range status is strictly required, but is good for error handling. The rest of these steps are mandatory.
+The range status is not strictly required, but is good for error handling. The rest of these steps are mandatory.
 
 Multicore:
 This version of APC uses both RP2040 cores. Core 1 is used to range the second sensor. Since core 1 only ever uses I2C0 and vice versa, there are no collisions on the i2c. The cores are synchronized so they range at the same time, then core1 waits for core 0 to evaluate the data.
