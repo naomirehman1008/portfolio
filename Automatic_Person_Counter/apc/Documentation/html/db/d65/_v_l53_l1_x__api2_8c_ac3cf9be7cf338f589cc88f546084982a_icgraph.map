@@ -1,9 +1,0 @@
-<map id="VL53L1X_GetSensorId2" name="VL53L1X_GetSensorId2">
-<area shape="rect" id="Node000001" title=" " alt="" coords="439,5,601,31"/>
-<area shape="rect" id="Node000002" href="$d7/d08/_v_l53_l1_x__platform2_8c.html#a2e8c7339f5b279fa86e02062fca67183" title=" " alt="" coords="257,5,391,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="424,21,391,21,391,16,424,16"/>
-<area shape="rect" id="Node000003" href="$d0/d29/main_8c.html#ab4450fd1b1a2ae60b21891cbcacc3507" title=" " alt="" coords="103,5,209,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="241,21,209,21,209,16,241,16"/>
-<area shape="rect" id="Node000004" href="$d0/d29/main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
-</map>

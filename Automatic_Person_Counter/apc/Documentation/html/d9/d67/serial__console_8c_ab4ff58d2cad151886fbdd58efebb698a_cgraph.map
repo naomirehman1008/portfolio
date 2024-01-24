@@ -1,9 +1,0 @@
-<map id="run_get_command" name="run_get_command">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,134,88"/>
-<area shape="rect" id="Node000002" href="$d0/d10/string__util_8c.html#a0ad5f27148893181d3580e699d85aa1e" title=" " alt="" coords="207,5,309,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,60,198,33,199,39,115,65"/>
-<area shape="rect" id="Node000003" href="$d0/d10/string__util_8c.html#a9ca8acf9d2f036709911a12bd16cc7b4" title=" " alt="" coords="182,55,334,96"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,73,166,73,166,78,134,78"/>
-<area shape="rect" id="Node000004" href="$df/d45/filesystem_8c.html#a0dc63f6c020c6278f2a83542513cfbe5" title=" " alt="" coords="228,120,288,146"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,86,213,117,212,122,114,91"/>
-</map>

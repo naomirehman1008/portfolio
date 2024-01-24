@@ -1,9 +1,0 @@
-<map id="run_send_deboarding" name="run_send_deboarding">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,150,31"/>
-<area shape="rect" id="Node000002" href="$d3/d3f/can__bus__send_8c.html#a66c07bbb0fc111b077f07d473862b55b" title="Send deboarding detected to main pico." alt="" coords="198,5,317,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,16,182,16,182,21,150,21"/>
-<area shape="rect" id="Node000003" href="$d3/d3f/can__bus__send_8c.html#a3ae3a01bf0819e20202fea5c06638e4d" title=" " alt="" coords="365,5,485,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="317,16,350,16,350,21,317,21"/>
-<area shape="rect" id="Node000004" href="$d5/dc9/hw__settings_8c.html#ac66d34644b2ee734ffc7c477d1ec3ea5" title=" " alt="" coords="533,5,626,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="486,16,518,16,518,21,486,21"/>
-</map>

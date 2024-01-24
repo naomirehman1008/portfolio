@@ -1,9 +1,0 @@
-<map id="SerialConsole/serial_console.h" name="SerialConsole/serial_console.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="151,5,288,46"/>
-<area shape="rect" id="Node000002" href="$d9/d67/serial__console_8c.html" title=" " alt="" coords="5,94,143,135"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,56,108,96,105,91,172,52"/>
-<area shape="rect" id="Node000003" href="$d4/d96/configuration_8c.html" title=" " alt="" coords="166,102,273,127"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,62,222,101,217,101,217,62"/>
-<area shape="rect" id="Node000004" href="$d0/d29/main_8c.html" title=" " alt="" coords="297,102,358,127"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="257,54,314,99,311,103,254,58"/>
-</map>

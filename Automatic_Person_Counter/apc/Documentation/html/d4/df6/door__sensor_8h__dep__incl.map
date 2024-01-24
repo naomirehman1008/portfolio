@@ -1,9 +1,0 @@
-<map id="door_sensor.h" name="door_sensor.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="135,5,238,31"/>
-<area shape="rect" id="Node000002" href="$d4/d96/configuration_8c.html" title=" " alt="" coords="5,79,112,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,41,82,81,79,76,150,37"/>
-<area shape="rect" id="Node000003" href="$d9/da4/door__sensor_8c.html" title=" " alt="" coords="135,79,238,105"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,46,189,79,184,79,184,46"/>
-<area shape="rect" id="Node000004" href="$d0/d29/main_8c.html" title=" " alt="" coords="262,79,322,105"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="218,38,275,76,272,81,215,42"/>
-</map>
