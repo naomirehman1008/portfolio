@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/naomi/Documents/portfolio/portfolio/Automatic_Person_Counter/apc",
-      "program": "c:/Users/naomi/Documents/portfolio/portfolio/Automatic_Person_Counter/apc/build/Debug/outDebug",
+      "cwd": "c:/Users/naomi/Documents/portfolio/portfolio/Automatic_Person_Counter",
+      "program": "c:/Users/naomi/Documents/portfolio/portfolio/Automatic_Person_Counter/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

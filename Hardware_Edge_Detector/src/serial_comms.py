@@ -89,19 +89,21 @@ def take_picture():
             exit()
 
 def load_image(file_path):
-    image = cv2.imread(file_path)
-    if not image:
-        err_message = f"Failed to load image from {file_path}. Try again? (y, n)\n"
-        try_again = input(err_message)
-        if (try_again == 'y'):
-            # unimplemented
-            print("invalid input, I'd ask you to try again, but I don't have gotos!!")
-            exit()
-        elif (try_again == 'n'):
-            exit()
-        else:
-            print("invalid input, I'd ask you to try again, but I don't have gotos!!")
-            exit()
+    try_again = True
+    while try_again:
+        image = cv2.imread(file_path)
+        try_again = not image;
+        if(try_again):
+            err_message = f"Failed to load image from {file_path}. Try again? (y, n)\n"
+            usr_input = input(err_message)
+            if (usr_input == 'y'):
+                # unimplemented
+                try_again = True
+            elif (usr_input == 'n'):
+                exit()
+            else:
+                print("invalid input, please enter y to try again or n to quit")
+                exit()
     return image
 
 def process_input_image(image):
@@ -166,15 +168,6 @@ if __name__ == '__main__':
 
     # display image
     print(processed_image)
-    """
-    cv2.namedWindow('Grayscale Image', cv2.WINDOW_NORMAL)
-    cv2.resizeWindow('Grayscale Image', DISPLAY_WIDTH, DISPLAY_HIGHT)
-    cv2.imshow('original', input_image)
-    cv2.imshow('Grayscale Image', processed_image)
-    # Check for the 'q' key to exit the loop and close the window
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-    """
     # prepare image to send
     send_image(serial_obj, processed_image)
 
@@ -184,5 +177,3 @@ if __name__ == '__main__':
     # reconstruct image from bytes object
     rec_image = reconstruct_image(convolved_image_bytes)
     display_image_blocking(rec_image, 'edges')
-    #display image
-    print("finished")
