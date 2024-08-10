@@ -1,6 +1,3 @@
-# Naomi Rehman's Portfolio
-Welcome to my portfolio! This is a collection of projects I have worked on recently. I also have a private repository of my favorite academic projects, please email me at naomiarehman@gmail.com if you would like to see it.
-
 #### Automatic Person Counter
 This project automatically detects and records people boading and deboarding a bus. It uses C, C++, and two VL53L1X sensors to count passengers. 
 
